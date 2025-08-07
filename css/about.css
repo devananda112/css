@@ -1,0 +1,11 @@
+.p1{color:red;
+    font: italic small-caps lighter 40px fantasy;
+    direction: rtl;
+}
+.p2{color:green;
+    font-family: 'lucida console',monospace;
+    font-style: italic;
+    font-weight: lighter;
+    font-variant: small-caps;
+    font-size: 40px;
+}
