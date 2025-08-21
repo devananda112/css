@@ -1,0 +1,49 @@
+/*body{
+    width: 100%;
+    height: 100vh;
+    animation-name: animation1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+   /* background: linear-gradient(360deg, green 0%,pink 50%,blue 100%);*/
+/*   background: radial-gradient(circle at 100% center,green 0%,orange 50%,yellow 60%);*/
+/*  background: conic-gradient(from 90deg at center ,green 0%,orange 50%,yellow 60%);*/
+
+/*@keyframes animation1{
+    from{
+         background: linear-gradient(30deg, green 0%,pink 50%,blue 100%); 
+    }
+    to{
+           background: linear-gradient(360deg, blue 0%,pink 50%,green 100%);
+    }
+}*/
+div{
+    height: 150px;
+    width: 150px;
+    animation: animation2 2s linear  3s infinite  alternate;
+    border: 5px solid black;
+    background-color: crimson;
+}
+@keyframes animation2{
+    0%{
+        transform: translate(0,0);
+        background-color: blue;
+    }
+    20%{
+        transform: translate(50px,50px);
+        background-color: chartreuse;
+    }
+    50%{
+        transform: translate(100px,100px);
+        background-color:blueviolet ;
+    }
+    70%{
+        transform: translate(50px,50px);
+        background-color: darkturquoise;
+    }
+    100%{
+        transform: translate(0,0);
+        background-color: chocolate;
+    }
+}
